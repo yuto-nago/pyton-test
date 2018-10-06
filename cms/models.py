@@ -16,6 +16,7 @@ class Impression(models.Model):
     """感想"""
     book = models.ForeignKey(Book, verbose_name='書籍', related_name='impressions', on_delete=models.CASCADE)
     comment = models.TextField('コメント', blank=True)
+    impressions = book.impressions.all().order_by('id')  # 書籍の子供の、感想を読む
 
     def __str__(self):
         return self.comment
