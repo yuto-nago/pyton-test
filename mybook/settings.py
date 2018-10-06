@@ -23,7 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'th#)@k9!t(y+z44#m3ehd_8y)!e4nu*3)0jjdi+m4bw9hzy!xa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
+DEBUG = (os.environ.get('PRODUCTION') != 'True')
 
 ALLOWED_HOSTS = []
 
@@ -120,3 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+import django_heroku
+
+django_heroku.settings(locals())
