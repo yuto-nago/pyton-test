@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aac5eea3-28e3-4622-9864-5d13ac0666ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/templetes/cms/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/cms/templetes/cms/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/templetes/cms/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/cms/templete/cms/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/templetes/cms/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/cms/templete/cms/book_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cms/templetes/cms/base.html">
+        <entry file="file://$PROJECT_DIR$/cms/templete/cms/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
@@ -97,7 +98,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/templetes/cms/book_list.html">
+        <entry file="file://$PROJECT_DIR$/cms/templete/cms/book_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="25" column="108" lean-forward="true" selection-start-line="25" selection-start-column="108" selection-end-line="25" selection-end-column="108" />
@@ -196,13 +197,13 @@
               <item name="mybook" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybook" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="templetes" type="462c0819:PsiDirectoryNode" />
+              <item name="templete" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybook" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybook" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="templetes" type="462c0819:PsiDirectoryNode" />
+              <item name="templete" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,10 +248,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20026882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33870968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
@@ -335,14 +335,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/templetes/cms/book_list.html">
+    <entry file="file://$PROJECT_DIR$/cms/templete/cms/book_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="108" lean-forward="true" selection-start-line="25" selection-start-column="108" selection-end-line="25" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/templetes/cms/base.html">
+    <entry file="file://$PROJECT_DIR$/cms/templete/cms/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
